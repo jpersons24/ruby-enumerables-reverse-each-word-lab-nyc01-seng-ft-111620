@@ -1,3 +1,5 @@
+require 'pry'
+
 string_of_words = "Hello there, and how are you?"
 
 def reverse_each_word(string)
@@ -16,3 +18,5 @@ def reverse_each_word(string)
 end
 
 reverse_each_word(string_of_words)
+
+binding.pry
