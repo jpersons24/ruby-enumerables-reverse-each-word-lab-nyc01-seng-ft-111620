@@ -12,4 +12,6 @@ def reverse_each_word(string)
   return reversed_string_array
 end
 
+reverse_each_word(string_of_words)
+
 binding.pry
