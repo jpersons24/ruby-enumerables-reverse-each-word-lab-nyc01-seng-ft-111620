@@ -1,3 +1,5 @@
+string_of_words = "Hello there, and how are you?"
+
 def reverse_each_word(string)
   # method takes in string for an argument
   # convert string into array in order to use enumerator on it
