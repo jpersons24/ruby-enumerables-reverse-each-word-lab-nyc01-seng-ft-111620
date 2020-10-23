@@ -1,21 +1,15 @@
 require 'pry'
 
-string_of_words = "Hello there, and how are you?"
+string_of_words = "Hello there, how are you?"
 
 def reverse_each_word(string)
-  # method takes in string for an argument
-  # convert string into array in order to use enumerator on it
-  split_string = string.split
-  # enumerate over the array and reverse each word within the array
-  split_string.each do |value|
-    reversed_array = []
-    reversed_value = value.reverse
-    reversed_array << reversed_value
-    return reversed_array.join
-  end
-  # explicitly return variable that is set to reversed array
-end
+  string_array = string.split
 
-reverse_each_word(string_of_words)
+  string_array.each do |word|
+    reversed_string_array = []
+    reversed_string_array << word.reverse
+  end
+  return reversed_string_array
+end
 
 binding.pry
