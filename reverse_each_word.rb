@@ -8,7 +8,7 @@ def reverse_each_word(string)
   string_array.each do |word|
     reversed_string_array = []
     reversed_string_array << word.reverse
-    reversed_string_array
+    p reversed_string_array
   end
 end
 
