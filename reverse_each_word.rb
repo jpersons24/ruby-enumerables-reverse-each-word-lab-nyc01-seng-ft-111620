@@ -14,3 +14,5 @@ def reverse_each_word(string)
   # explicitly return variable that is set to reversed array
   p reversed_array
 end
+
+reverse_each_word(string_of_words)
