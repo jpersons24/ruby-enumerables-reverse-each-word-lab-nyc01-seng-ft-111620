@@ -7,8 +7,8 @@ def reverse_each_word(string)
     reversed_array = []
     reversed_value = value.reverse
     reversed_array << reversed_value
+    reversed_array.join
   end
   # explicitly return variable that is set to reversed array
-  reversed_array.join
   p reversed_array
 end
