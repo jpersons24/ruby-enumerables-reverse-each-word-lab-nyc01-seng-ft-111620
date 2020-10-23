@@ -10,9 +10,9 @@ def reverse_each_word(string)
     reversed_value = value.reverse
     reversed_array << reversed_value
     reversed_array.join
+    p reversed_array
   end
   # explicitly return variable that is set to reversed array
-  p reversed_array
 end
 
 reverse_each_word(string_of_words)
